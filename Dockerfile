@@ -6,6 +6,4 @@ WORKDIR /
 
 COPY ${APP_NAME} /${APP_NAME}
 
-ENTRYPOINT ["/app"]
-
-CMD ["./main"]
+ENTRYPOINT ["/dasha_ovs"]
